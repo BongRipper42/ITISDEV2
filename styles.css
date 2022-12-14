@@ -1,0 +1,108 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: montserrat;
+
+}
+
+nav{
+	background: #00917C;
+	height 500px;
+	width: 100%;
+}
+
+a.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul{
+	float:right;
+	margin-right:20px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+a.active, a:hover{
+	background: 00564A;
+	transition: .5s;
+}
+
+.back { 
+	background-color:rgba(255, 255, 255, 1);
+	width:auto;
+	height:auto;
+	position:absolute;
+}
+.Header { 
+	background-color:rgba(220.00000208616257, 53.00000064074993, 69.00000348687172, 1);
+	width:1875px;
+	height:224px;
+	position:absolute;
+	align-self: center;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+
+/* button */
+.hButton { 
+	color:rgba(255, 255, 255, 1);
+	width:125px;
+	height:45px;
+	position:absolute;
+	left:44px;
+	top:147px;
+	font-family:Roboto;
+	background-color: rgba(240, 248, 255, 0);
+	font-size:30px;
+	letter-spacing:0;
+	border-color: rgba(245, 245, 220, 0);
+
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+
+.Hbutton:hover{
+	background-color:rgb(216, 216, 216); ;
+}
+
+
+.buttonSpan{
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+
+
+
